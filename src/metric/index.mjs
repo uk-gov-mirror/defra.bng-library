@@ -47,4 +47,13 @@ export {
   normaliseEncroachmentLabel
 } from './linear-resolvers.mjs'
 export { resolveDistinctiveness } from './multipliers.mjs'
+export {
+  calculateHabitatNetUnitChanges,
+  sumSurplus,
+  sumDeficit,
+  sumNetChange,
+  calculateCumulativeAvailability,
+  resolveWatercourseDistinctiveness,
+  calculateWatercourseTradingRules
+} from './trading-rules.mjs'
 export { MAX_YEARS, MAX_YEARS_PLUS, MIN_YEARS } from './validate.mjs'

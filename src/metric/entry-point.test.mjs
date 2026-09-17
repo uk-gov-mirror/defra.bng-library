@@ -45,20 +45,27 @@ const PUBLIC_EXPORTS = [
   'calculateCreatedAreaHabitatPostIntervention',
   'calculateCreatedHedgerowPostIntervention',
   'calculateCreatedWatercoursePostIntervention',
+  'calculateCumulativeAvailability',
   'calculateEnhancedAreaHabitatPostIntervention',
   'calculateEnhancedHedgerowPostIntervention',
   'calculateEnhancedWatercoursePostIntervention',
+  'calculateHabitatNetUnitChanges',
   'calculateHedgerowBaseline',
   'calculatePostInterventionNetUnitChanges',
   'calculateRetainedAreaHabitatPostIntervention',
   'calculateRetainedHedgerowPostIntervention',
   'calculateRetainedWatercoursePostIntervention',
   'calculateWatercourseBaseline',
+  'calculateWatercourseTradingRules',
   'getIndividualTreeAreaHectares',
   'isRecognisedEncroachmentValue',
   'normaliseEncroachmentLabel',
   'resolveDistinctiveness',
-  'roundToSigFigs'
+  'resolveWatercourseDistinctiveness',
+  'roundToSigFigs',
+  'sumDeficit',
+  'sumNetChange',
+  'sumSurplus'
 ]
 
 describe("the 'bng-library/metric' subpath export", () => {
